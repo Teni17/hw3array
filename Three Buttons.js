@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 
 origArray = [2,3,4];
+   document.getElementById("output1").value= origArray[0] ;
+   document.getElementById("output2").value= origArray[1] ;
+   document.getElementById("output3").value= origArray[2] ;
+
 
 document.getElementById("cubebutton").addEventListener("click", function () {
 
@@ -10,7 +14,7 @@ document.getElementById("cubebutton").addEventListener("click", function () {
    document.getElementById("output3").value= map1[2] ;
 
 })
-document.getElementById("fourthbutton").addEventListener("click", tothefourth());
+document.getElementById("fourthbutton").addEventListener("click", tothefourth);
 });
 
 function squares(){
